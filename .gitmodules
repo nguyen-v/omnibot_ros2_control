@@ -1,0 +1,3 @@
+[submodule "src/omni_wheel_controller"]
+	path = src/omni_wheel_controller
+	url = git@github.com:nguyen-v/omni_wheel_controller.git
