@@ -6,9 +6,6 @@ It assumes that the ODrive is already configured and calibrated (see [docs](http
 
 **This is a work in progress** (see **Features**).
 
-## Usage
-
-For a high level usage example, see the [BotWheel Explorer ROS2 Package](../odrive_botwheel_explorer/README.md).
 
 ## Features
 
@@ -35,6 +32,7 @@ Top level:
 Per joint:
 
 - `node_id`: `node_id` of the ODrive
+- `reduction_ratio`: the physical reduction ratio of the actuator
 
 ## Command Interfaces
 
