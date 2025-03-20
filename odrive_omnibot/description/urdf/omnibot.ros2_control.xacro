@@ -19,14 +19,23 @@
       <joint name="${prefix}wheel0_joint">
         <param name="node_id">0</param>
         <param name="reduction_ratio">8.0</param>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
       </joint>
       <joint name="${prefix}wheel1_joint">
         <param name="node_id">1</param>
         <param name="reduction_ratio">8.0</param>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
       </joint>
       <joint name="${prefix}wheel2_joint">
         <param name="node_id">2</param>
         <param name="reduction_ratio">8.0</param>
+        <state_interface name="position">
+          <param name="initial_value">0.0</param>
+        </state_interface>
       </joint>
     </ros2_control>
 
